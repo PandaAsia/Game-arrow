@@ -1,0 +1,41 @@
+body{
+    background-color: blueviolet;
+}
+
+#Contenedor_Btns{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 50px;
+    padding: 25px;
+    height: 350px;
+}
+#div_btn_arriba{
+    display: grid;
+    justify-content: center;
+    grid-area: 1/span 3;
+}
+
+#div_btn_abajo{
+    display: grid;
+    justify-content: center;
+    grid-area: 3/span 3;
+}
+
+.Btn_img{
+    background-color: transparent;
+    border: none;
+}
+
+.Img_circle{
+    width: 80px;
+    height: 80px;
+}
+
+.Img_circle:hover{
+    width: 95px;
+    height: 95px;
+}
